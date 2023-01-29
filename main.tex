@@ -1,0 +1,41 @@
+\documentclass[12pt]{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+
+\title{\Huge{Szablon notatek}}
+\author{\huge{Piotr Sobieraj}}
+\date{wiosna 2023}
+
+\begin{document}
+
+\maketitle
+\newpage
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+
+
+\chapter{}
+\section{Zagadnienia wstępne}
+
+\qs{Problem Collatza}{Pytanie, czy problem Collatza $3n + 1$ ma rozwiązanie}
+
+\dfn{Funkcja Collatza}{
+Funkcją Collatza nazywamy funkcję 
+\begin{equation*}
+f(n)=
+    \begin{cases}
+        \frac{n}{2} & \text{gdy } n \in \mathbb{N}_{PAR} \\
+        3n + 1 & \text{gdy } n \in \mathbb{N}_{NPAR}
+    \end{cases}
+\end{equation*}
+}
+
+\ex{}
+
+
+
+
+\end{document}
